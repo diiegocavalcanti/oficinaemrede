@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="132.865px" height="132.865px" viewBox="0 0 132.865 132.865" enable-background="new 0 0 132.865 132.865"
+	 xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="3.5146" y1="129.3506" x2="129.3506" y2="3.5146">
+	<stop  offset="0" style="stop-color:#009CE0"/>
+	<stop  offset="1" style="stop-color:#00F2AA"/>
+</linearGradient>
+<path fill="url(#SVGID_1_)" d="M132.865,120.865c0,6.627-5.372,12-12,12H12c-6.628,0-12-5.373-12-12V12C0,5.373,5.372,0,12,0
+	h108.865c6.628,0,12,5.373,12,12V120.865z"/>
+<g>
+	<path fill="none" stroke="#F4F2F1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M32.876,117.066V22.684c0-2.336,2.427-4.794,4.763-4.794h57.587c2.335,0,4.764,2.458,4.764,4.794v94.382
+		c0,0-2.429-0.104-4.764-0.104H37.639C35.303,116.961,35.303,116.961,32.876,117.066z"/>
+	
+		<polyline fill="none" stroke="#F4F2F1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		53.648,115.468 53.648,83.509 79.216,83.509 79.216,115.468 	"/>
+	
+		<line fill="none" stroke="#F4F2F1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.896" y1="117.066" x2="115.968" y2="117.066"/>
+	
+		<rect x="47.257" y="32.27" fill="none" stroke="#F4F2F1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="11.186" height="11.186"/>
+	
+		<rect x="74.422" y="32.27" fill="none" stroke="#F4F2F1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="11.187" height="11.186"/>
+	
+		<rect x="47.257" y="57.836" fill="none" stroke="#F4F2F1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="11.186" height="11.186"/>
+	
+		<rect x="74.422" y="57.836" fill="none" stroke="#F4F2F1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="11.187" height="11.186"/>
+</g>
+</svg>

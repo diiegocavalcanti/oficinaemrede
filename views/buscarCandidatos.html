@@ -1,0 +1,67 @@
+<div class="title_empresa_vaga">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h1><img src="images/ico-gerenciar-vaga-20.svg" alt="">BUSCAR CANDIDATOS</h1>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="border_title"></div>
+
+<div class="section-title-buscar-vaga">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-2">
+				<img src="images/ico-lupa-busca-28.svg" alt="" width="100%" height="auto">
+			</div>
+			<div class="col-xs-10">
+				<h2>OPÇÕES DE BUSCA</h2>
+				<h6>(Você pode escolher mais de uma opção)</h6>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section-busca-vaga">
+	<form id="busca-candidatos" method="POST">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 form-busca">
+					<div class="form-group">
+						<label for="exampleInputEmail1">Buscar por Especialidade</label>
+						<select name="busca_vaga" id="busca_vaga" class="form-control">
+							<option value="">Selecione</option>
+						</select>
+					</div>
+
+					<div class="form-group">
+						<label for="exampleInputEmail1">Buscar por Estado</label>
+						<select disabled name="busca_estado" id="busca_estado" class="form-control">
+							 
+						</select>
+					</div>
+
+					<div class="form-group">
+						<label for="exampleInputEmail1">Buscar por Cidade</label>
+						<select disabled name="busca_cidade" id="busca_cidade" class="form-control">
+							
+						</select>
+					</div>
+
+					<div class="form-group">
+						<label for="exampleInputEmail1">Buscar por Bairro</label>
+						<select disabled name="busca_bairro" id="busca_bairro" class="form-control">
+							
+						</select>
+					</div>
+
+					<button type="submit" class="btn btn-busca-vaga">BUSCAR</button>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+
+<script src="js/controller_buscar_candidato.js"></script>
+<script src="js/controller_form_busca_candidatos.js"></script>

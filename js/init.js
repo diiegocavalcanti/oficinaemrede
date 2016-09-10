@@ -1,0 +1,14 @@
+validaSenha();
+habilidades();
+diaCand();
+anoCand();
+clearMenu();
+altMsg();
+altMsgLogin();
+defineMenu();
+cargos();
+vagasQtde();
+horarios();
+idSalaoVaga();
+loadCardsVagasEscolhidas();
+loadCardsVagas();

@@ -1,0 +1,22 @@
+{
+  "name": "Beleza em Rede",
+  "version": "0.0.1",
+  "description": "Aplicativo Beleza em Rede, encontre empregos facilmente.",
+  "keywords": [
+    "beleza",
+    "rede",
+    "emprego"
+  ],
+  "authors": [
+    "Diego Cavalcanti"
+  ],
+  "license": "MIT",
+  "homepage": "www.belezaemrede.com.br",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

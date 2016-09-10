@@ -1,0 +1,167 @@
+
+<div id="scroller">
+		<div class="title_view">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1>CONTA CANDIDATO</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="border_title"></div>
+		<div class="sub_title_view">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2>PERFIL CANDIDATO</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<form id="conta-candidato" method="POST">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 form-empresario">
+							<input type="hidden" name="id_usuario" id="id_usuario">
+						  <div class="form-group">
+						    <label for="exampleInputEmail1">Nome Completo (*)</label>
+						    <input type="text" name="nome_user_cand" class="form-control" id="nome_user_cand" placeholder="Seu nome">
+						  </div>
+
+						  <div class="form-group">
+						  	<label for="exampleInputEmail1">Sexo (*)</label>
+							    <select name="sexo_user_cand" id="sexo_user_cand" class="form-control">
+							    	<option value="">Selecione</option>
+							    	<option value="Masculino">Masculino</option>
+							    	<option value="Feminino">Feminino</option>
+							    </select>
+							  </div>
+
+						  <div class="row">
+						  	<div class="col-xs-12">
+						  		<label for="">Data de Nascimento (*)</label>
+						  	</div>
+						  	<div class="col-xs-4">
+						  		
+						  		<div class="form-group">
+							    <select name="dia_user_cand" id="dia_user_cand" class="form-control">
+							    	
+							    </select>
+							  </div>
+						  	</div>
+
+						  	<div class="col-xs-4">
+						  		<div class="form-group">
+							    <select name="mes_user_cand" id="mes_user_cand" class="form-control">
+							    </select>
+							  </div>
+						  	</div>
+
+						  	<div class="col-xs-4">
+						  		<div class="form-group">
+							    <select name="ano_user_cand" id="ano_user_cand" class="form-control">
+							    	
+							    </select>
+							  </div>
+						  	</div>
+
+						  	
+						  </div>
+
+						  <div class="form-group">
+						    <label for="exampleInputEmail1">CEP (*)</label>
+						    <input type="text" class="form-control" name="cep_user_cand" id="cep_user_cand" placeholder="CEP">
+						  </div>
+
+						  <div class="form-group">
+						    <label for="exampleInputEmail1">Rua (*)</label>
+						    <input type="text" class="form-control" name="rua_user_cand" id="rua_user_cand" placeholder="Rua">
+						  </div>
+
+						  <div class="row">
+							 	<div class="col-xs-5">
+							  		<div class="form-group">
+								    <label for="exampleInputPassword1">Número (*)</label>
+								    <input type="text" class="form-control" name="numero_user_cand" id="numero_user_cand" placeholder="Número">
+								  </div>
+							  	</div>
+
+							  	<div class="col-xs-7">
+							  		<div class="form-group">
+									    <label for="exampleInputEmail1">Complemento</label>
+									    <input type="text" class="form-control" name="complemento_user_cand" id="complemento_user_cand" placeholder="Ex: Apto 01">
+									  </div>
+							  	</div>
+							 </div>
+
+							  <div class="form-group">
+							    <label for="exampleInputEmail1">Bairro (*)</label>
+							    <input type="text" class="form-control" name="bairro_user_cand" id="bairro_user_cand" placeholder="Bairro">
+							 </div>
+
+							 <div class="form-group">
+							    <label for="exampleInputEmail1">Cidade (*)</label>
+							    <input type="text" class="form-control" name="cidade_user_cand" id="cidade_user_cand" placeholder="Cidade">
+							 </div>
+
+							 <div class="form-group">
+							    <label for="exampleInputEmail1">Estado (*)</label>
+							    <input type="text" class="form-control" name="estado_user_cand" id="estado_user_cand" placeholder="Estado">
+							 </div>
+
+							 <div class="row">
+							 	<div class="col-xs-12">
+							 		 <label for="exampleInputPassword1">Fone (*)</label>
+							 	</div>
+							 	<div class="col-xs-5">
+							  		<div class="form-group">
+								   
+								    <select name="cod_fone_user_cand" id="cod_fone_user_cand" class="form-control">
+								    	
+								    </select>
+								  </div>
+							  	</div>
+
+							  	<div class="col-xs-7">
+							  		<div class="form-group">
+									    <input type="text" class="form-control" name="fone_user_cand" id="fone_user_cand" placeholder="Fone">
+									  </div>
+							  	</div>
+							 </div>
+
+							 <div class="row">
+							 	<div class="col-xs-12">
+							 		 <label for="exampleInputPassword1">WhatsApp</label>
+							 	</div>
+							 	<div class="col-xs-5">
+							  		<div class="form-group">
+								   
+								    <select name="cod_wa_user_cand" id="cod_wa_user_cand" class="form-control">
+								    	
+								    </select>
+								  </div>
+							  	</div>
+
+							  	<div class="col-xs-7">
+							  		<div class="form-group">
+									    <input type="text" class="form-control" name="wa_user_cand" id="wa_user_cand" placeholder="WhatsApp">
+									  </div>
+							  	</div>
+							 </div>
+
+							<label for="exampleInputFile">Selecione habilidades (*)</label>
+						  <div class="habilidades-form">
+						  	
+						  </div>
+					
+						<button type="submit" class="btn btn-cadastro">SALVAR ALTERAÇÕES</button>
+
+					</div>
+				</div>
+			</div>
+
+		</form>
+</div>
+<script src="js/controller_conta_candidato.js"></script>
+<script src="js/controller_dados_candidato.js"></script>
